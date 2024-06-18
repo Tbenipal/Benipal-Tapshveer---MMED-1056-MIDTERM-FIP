@@ -1,13 +1,11 @@
-# Interactive SVG Icons
-Choose 6 SVG Icons for your FIP & use CSS interactions or transitions to change the icon’s appearance on hover. When clicked log a message to the console with the ID of the element that you’ve clicked. The ID should be retrieved and displayed with a JavaScript string template and variable
+# MIDTERM/FIP
 
 ## Installation
 Clone, Download as a zip from Github and check the destination for the cloned or downloaded zip/file and drag'n drop in visual studio or open it through visual studio manually
 
 ## Usage
 1. Run index.html
-2. Scale to your chosen size from Mobile-Tablet-Desktop depends on your platform\
-3. hover on each 6 SVG's to see what they can do!
+2. Scale to your chosen size from Mobile-Tablet-Desktop depends on your platform
 
 ## Contributing
 Fork it!
@@ -20,7 +18,6 @@ Submit a pull request :D
 This repo was last updated in 2024
 
 ## Credits
-Professor: Marco De Deluca
 Student: Tapshveer Benipal
 
 ### License
