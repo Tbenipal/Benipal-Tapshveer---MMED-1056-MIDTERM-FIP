@@ -1,11 +1,13 @@
-# Benipal-Tapshveer---MMED-1056-MIDTERM-FIP
-This my my Midterm/FIP for MMED-1056 class by Tapshveer Benipal
+# Interactive SVG Icons
+Choose 6 SVG Icons for your FIP & use CSS interactions or transitions to change the icon’s appearance on hover. When clicked log a message to the console with the ID of the element that you’ve clicked. The ID should be retrieved and displayed with a JavaScript string template and variable
 
 ## Installation
-TODO: Describe the installation process
+Clone, Download as a zip from Github and check the destination for the cloned or downloaded zip/file and drag'n drop in visual studio or open it through visual studio manually
 
 ## Usage
-TODO: Write usage instructions
+1. Run index.html
+2. Scale to your chosen size from Mobile-Tablet-Desktop depends on your platform\
+3. hover on each 6 SVG's to see what they can do!
 
 ## Contributing
 Fork it!
@@ -15,10 +17,11 @@ Push to the branch: git push origin my-new-feature
 Submit a pull request :D
 
 ## History
-TODO: Write history
+This repo was last updated in 2024
 
 ## Credits
-TODO: Write credits
+Professor: Marco De Deluca
+Student: Tapshveer Benipal
 
-## License
-TODO: Write license
+### License
+MIT License

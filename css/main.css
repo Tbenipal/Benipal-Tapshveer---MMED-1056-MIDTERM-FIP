@@ -1,0 +1,593 @@
+html, body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+div #logo {
+  height: 125px;
+  width: 125px;
+  padding-left: 15px;
+  margin: 0px auto;
+}
+
+div #nav {
+  height: 30px;
+  width: 30px;
+  position: absolute; top: 40px;
+  margin-left: 310px;
+}
+
+#bkground {
+  background-color: white;
+  max-width: 500px;
+  height: 75px;
+  margin: 0px auto;
+}
+
+#video {
+  background-color: grey;
+  text-align: center;
+  max-width: 500px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#p5, #p6, #p7, #p8 {
+  display: none;
+}
+
+/* LEMON */
+
+#lemon {
+  background-color: yellow;
+  max-width: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#lemon #p1 {
+  padding-left: 20px;
+}
+
+#lemon #can1 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: 365px;
+  position: absolute; top: 340px;
+
+}
+
+/* PINEAPPLE */
+
+#pineapple {
+  background-color: gold;
+  max-width: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#pineapple p {
+  padding-left: 20px;
+}
+
+#pineapple #can3 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: 365px;
+  position: absolute; top: 850px;
+
+}
+
+/* Orange */
+
+#orange {
+  background-color: orange;
+  max-width: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#orange p {
+  text-align: end;
+  padding-right: 20px;
+}
+
+#orange #can2 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: 20px;
+  position: absolute; top: 600px;
+}
+
+/* Grapefruit */
+
+#grapefruit {
+  background-color: rgb(246, 76, 104);
+  max-width: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#grapefruit p {
+  text-align: end;
+  padding-right: 20px;
+}
+
+#grapefruit #can4 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-left: 20px;
+  position: absolute; top: 1120px;
+}
+
+#footer {
+  background-color: white;
+  max-width: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#footerlogo {
+  width: 200px;
+  padding-left: 15px;
+}
+
+
+/* Tablet Grid */
+
+@media screen and (min-width: 768px) {
+
+  #container {
+    margin: 0 auto;
+    min-width: 768px;
+  }
+  
+  div #logo {
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+    padding-left: 50px;
+  }
+  
+  div #nav {
+    height: 40px;
+    width: 40px;
+    position: absolute; top: 40px;
+    margin-left: 480px;
+  }
+  
+  #bkground {
+    background-color: white;
+    width: 768px;
+    max-width: 1200px;
+    height: 90px;
+    margin: 0px auto;
+  }
+  
+  #video {
+    background-color: grey;
+    text-align: center;
+    width: 768px;
+    max-width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #p5, #p6, #p7, #p8 {
+    display: block;
+  }
+
+  /* LEMON */
+
+  #lemon {
+    background-color: yellow;
+    width: 768px;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  
+  #lemon #p1 {
+    font-size: 18px;
+    padding-left: 55px;
+  }
+
+  #lemon #p5 {
+    font-size: 18px;
+    padding-left: 55px;
+  }
+  
+  #lemon #can1 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: 540px;
+    position: absolute; top: 435px;
+  
+  }
+
+  /* PINEAPPLE */
+
+  #pineapple {
+    background-color: yellow;
+    width: 768px;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  
+  #pineapple #p3 {
+    font-size: 18px;
+    padding-left: 55px;
+  }
+
+  #pineapple #p7 {
+    font-size: 18px;
+    padding-left: 55px;
+  }
+  
+  #pineapple #can3 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: 540px;
+    position: absolute; top: 1320px;
+  
+  }
+
+  /* Orange */
+
+  #orange {
+    background-color: orange;
+    width: 768px;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #orange #p2 {
+    text-align: end;
+    font-size: 18px;
+    padding-right: 55px;
+  }
+
+  #orange #p6 {
+    text-align: end;
+    font-size: 18px;
+    padding-right: 55px;
+  }
+
+  
+  #orange #can2 {
+    background-color: grey;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: 55px;
+    position: absolute; top: 875px;
+  }
+  /* Grapefruit */
+
+  #grapefruit {
+    background-color: rgb(242, 63, 93);
+    width: 768px;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #grapefruit #p4 {
+    text-align: end;
+    font-size: 18px;
+    padding-right: 55px;
+  }
+
+  #grapefruit #p8 {
+    text-align: end;
+    font-size: 18px;
+    padding-right: 55px;
+  }
+
+  
+  #grapefruit #can4 {
+    background-color: grey;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-left: 55px;
+    position: absolute; top: 1765px;
+  }
+
+  #footer {
+    background-color: white;
+    width: 768px;
+    max-width: 1200px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #footerlogo {
+    width: 200px;
+    padding-left: 55px;
+  }
+}
+
+/* Desktop Grid */
+
+@media screen and (min-width: 1200px) {
+  
+  div #logo {
+    height: 200px;
+    width: 200px;
+    margin: 0px auto;
+    padding-left: 80px;
+  }
+  
+  div #nav {
+    height: 50px;
+    width: 50px;
+    position: absolute; top: 60px;
+    margin-left: 775px;
+  }
+  
+  #bkground {
+    background-color: white;
+    width: 1200px;
+    height: 120px;
+    margin: 0px auto;
+  }
+  
+  #video {
+    background-color: grey;
+    text-align: center;
+    width: 1200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #p5, #p6, #p7, #p8 {
+    display: block;
+  }
+
+  /* LEMON */
+
+  #lemon {
+    background-color: yellow;
+    width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  
+  #lemon #p1 {
+    font-size: 24px;
+    padding-left: 75px;
+  }
+
+  #lemon #p5 {
+    font-size: 24px;
+    padding-left: 75px;
+  }
+  
+  #lemon #can1 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin-left: 800px;
+    position: absolute; top: 580px;
+    transform: rotate(30deg);
+  
+  }
+
+  /* PINEAPPLE */
+
+  #pineapple {
+    background-color: yellow;
+    width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  
+  #pineapple #p3 {
+    font-size: 24px;
+    padding-left: 75px;
+  }
+
+  #pineapple #p7 {
+    font-size: 24px;
+    padding-left: 75px;
+  }
+  
+  #pineapple #can3 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin-left: 800px;
+    position: absolute; top: 1710px;
+    transform: rotate(30deg);
+  
+  }
+
+  /* Orange */
+
+  #orange {
+    background-color: orange;
+    width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #orange #p2 {
+    text-align: end;
+    font-size: 24px;
+    padding-right: 75px;
+  }
+
+  #orange #p6 {
+    text-align: end;
+    font-size: 24px;
+    padding-right: 75px;
+  }
+
+  
+  #orange #can2 {
+    background-color: grey;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 90px;
+    padding-left: 90px;
+    transform: rotate(-30deg);
+    margin-left: 170px;
+    position: absolute; top: 1150px;
+  }
+  /* Grapefruit */
+
+  #grapefruit {
+    background-color: rgb(242, 63, 93);
+    width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #grapefruit #p4 {
+    text-align: end;
+    font-size: 24px;
+    padding-right: 55px;
+  }
+
+  #grapefruit #p8 {
+    text-align: end;
+    font-size: 24px;
+    padding-right: 55px;
+  }
+
+  
+  #grapefruit #can4 {
+    background-color: grey;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 90px;
+    padding-left: 90px;
+    transform: rotate(-30deg);
+    margin-left: 170px;
+    position: absolute; top: 2275px;
+  }
+
+  #footer {
+    background-color: white;
+    width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  
+  #footerlogo {
+    width: 200px;
+    padding-left: 75px;
+  }
+
+}
