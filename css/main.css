@@ -412,7 +412,7 @@ div #nav {
   border: none;
   transition: all 200ms ease-in;
   width: 100px;
-  align-self: flex-end;
+  align-self: flex-start
 }
 
 #contact-hero-form input[type="submit"]:hover {
