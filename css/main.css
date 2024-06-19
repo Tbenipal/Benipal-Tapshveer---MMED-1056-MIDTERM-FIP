@@ -21,6 +21,14 @@ div #nav {
   margin-left: 310px;
 }
 
+#mainmenu {
+  display: none;
+}
+
+#description1, #description2, #description3, #description4 {
+  display: none;
+}
+
 #bkground {
   background-color: white;
   max-width: 500px;
@@ -161,6 +169,8 @@ div #nav {
 
 #footer {
   background-color: white;
+  display: flex;
+  justify-content: end;
   max-width: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -171,7 +181,244 @@ div #nav {
 
 #footerlogo {
   width: 200px;
-  padding-left: 15px;
+  padding-right: 20px;
+}
+
+/* Shop */
+
+#product1 {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item1 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 75px;
+  padding-right: 75px;
+  position: absolute; top: 125px;
+}
+
+#flavour1 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 465px;
+}
+
+#checkout1 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 550px;
+}
+
+#product2 {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item2 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 75px;
+  padding-right: 75px;
+  position: absolute; top: 725px;
+}
+
+#flavour2 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 1065px;
+}
+
+#checkout2 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 1150px;
+}
+
+#product3 {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item3 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 75px;
+  padding-right: 75px;
+  position: absolute; top: 1325px;
+}
+
+#flavour3 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 1665px;
+}
+
+#checkout3 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 1750px;
+}
+
+#product4 {
+  background-color: rgb(246, 76, 104);
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item4 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 75px;
+  padding-right: 75px;
+  position: absolute; top: 1925px;
+}
+
+#flavour4 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 2265px;
+}
+
+#checkout4 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  position: absolute; top: 2350px;
+}
+
+/* Contact */
+
+#contact {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#about {
+  font-size: 18px;
+}
+
+#contact-address {
+  margin: 50px auto 0px 0px;
+  position: relative; left: 0px;
+}
+
+#contact-hero-form form {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  margin: 50px auto 0px 0px;
+}
+
+#contact-hero-form input, textarea {
+  padding: 22px;
+  border: 2px solid #d6d6d6;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font: inherit;
+  width: auto;
+}
+
+#contact-hero-form textarea {
+  height: 250px;
+}
+
+
+
+#contact-hero-form input[type="submit"] {
+  padding: 12px 28px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  transition: all 200ms ease-in;
+  width: 100px;
+  align-self: flex-end;
+}
+
+#contact-hero-form input[type="submit"]:hover {
+  width: 150px;
+  background-color: red;
+  border-radius: 0;
 }
 
 
@@ -181,7 +428,6 @@ div #nav {
 
   #container {
     margin: 0 auto;
-    min-width: 768px;
   }
   
   div #logo {
@@ -192,10 +438,46 @@ div #nav {
   }
   
   div #nav {
-    height: 40px;
-    width: 40px;
-    position: absolute; top: 40px;
-    margin-left: 480px;
+    display:none
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+  }
+
+  .navbar li {
+    float: left;
+  }
+
+  #mainmenu {
+    display: block;
+    margin-left: 325px;
+    position: absolute; top: 35px;
+  }
+
+  #description1, #description2, #description3, #description4 {
+    font-size: 18px;
+    display: block;
   }
   
   #bkground {
@@ -384,8 +666,226 @@ div #nav {
 
   #footerlogo {
     width: 200px;
-    padding-left: 55px;
+    padding-right: 55px;
   }
+
+  /* Shop */
+
+#product1 {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  width: 768px;
+  max-width: 1200px;
+  padding-top: 275px;
+  padding-bottom: 275px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item1 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-right: 430px;
+  position: absolute; top: 150px;
+}
+
+#description1 {
+  margin-left: 370px;
+  position: absolute; top: 150px;
+}
+
+#flavour1 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 470px;
+  position: absolute; top: 350px;
+}
+
+#checkout1 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 463px;
+  position: absolute; top: 450px;
+}
+
+#product2 {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  width: 768px;
+  max-width: 1200px;
+  padding-top: 275px;
+  padding-bottom: 275px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item2 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-right: 430px;
+  position: absolute; top: 700px;
+}
+
+#description2 {
+  margin-left: 370px;
+  position: absolute; top: 700px;
+}
+
+#flavour2 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 465px;
+  position: absolute; top: 900px;
+}
+
+#checkout2 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 463px;
+  position: absolute; top: 1000px;
+}
+
+#product3 {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  width: 768px;
+  max-width: 1200px;
+  padding-top: 275px;
+  padding-bottom: 275px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item3 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-right: 430px;
+  position: absolute; top: 1250px;
+}
+
+#description3 {
+  margin-left: 370px;
+  position: absolute; top: 1250px;
+}
+
+#flavour3 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 445px;
+  position: absolute; top: 1450px;
+}
+
+#checkout3 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 463px;
+  position: absolute; top: 1550px;
+}
+
+#product4 {
+  background-color: rgb(246, 76, 104);
+  display: flex;
+  justify-content: center;
+  width: 768px;
+  max-width: 1200px;
+  padding-top: 275px;
+  padding-bottom: 275px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+#item4 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-right: 430px;
+  position: absolute; top: 1800px;
+}
+
+#description4 {
+  margin-left: 370px;
+  position: absolute; top: 1800px;
+}
+
+#flavour4 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 445px;
+  position: absolute; top: 2000px;
+}
+
+#checkout4 {
+  background-color: gray;
+  max-width: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: 463px;
+  position: absolute; top: 2100px;
+}
 }
 
 /* Desktop Grid */
@@ -400,11 +900,23 @@ div #nav {
   }
   
   div #nav {
-    height: 50px;
-    width: 50px;
-    position: absolute; top: 60px;
-    margin-left: 775px;
+    display: none;
   }
+
+  .navbar a {
+    font-size: 24px;
+  }
+
+  #mainmenu {
+    display: block;
+    margin-left: 625px;
+    position: absolute; top: 50px;
+  }
+
+  #description1, #description2, #description3, #description4 {
+    display: none;
+  }
+
   
   #bkground {
     background-color: white;
@@ -590,4 +1102,215 @@ div #nav {
     padding-left: 75px;
   }
 
+   /* Shop */
+
+   #block {
+    background-color: red;
+    width: 1200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+   }
+
+  #product1 {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-top: 275px;
+    padding-bottom: 275px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px auto 0px 0px;
+  }
+
+  #item1 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0 auto;
+    position: absolute; top: 175px;
+  }
+
+  #flavour1 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 510px;
+  }
+
+  #checkout1 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 575px;
+  }
+
+  #product2 {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-top: 275px;
+    padding-bottom: 275px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px auto 0px 300px;
+    position: absolute; top: 120px;
+  }
+
+  #item2 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0 auto;
+    position: absolute; top: 55px;
+  }
+
+  #flavour2 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 390px;
+  }
+
+  #checkout2 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 455px;
+  }
+
+  #product3 {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-top: 275px;
+    padding-bottom: 275px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px auto 0px 600px;
+    position: absolute; top: 120px;
+  }
+
+  #item3 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0 auto;
+    position: absolute; top: 55px;
+  }
+
+  #flavour3 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 390px;
+  }
+
+  #checkout3 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 455px;
+  }
+
+  #product4 {
+    background-color: rgb(242, 63, 93);
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-top: 275px;
+    padding-bottom: 275px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px auto 0px 900px;
+    position: absolute; top: 120px;
+  }
+
+  #item4 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0 auto;
+    position: absolute; top: 55px;
+  }
+
+  #flavour4 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 390px;
+  }
+
+  #checkout4 {
+    background-color: gray;
+    max-width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    position: absolute; top: 455px;
+  }
+
+  #footerlogo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
