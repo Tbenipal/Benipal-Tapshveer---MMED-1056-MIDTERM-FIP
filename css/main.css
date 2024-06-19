@@ -25,6 +25,52 @@ div #nav {
   display: none;
 }
 
+.side-bar {
+  position: fixed;
+  top: -00px;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: white;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.side-bar li {
+  width: 100%;
+  list-style-type: none;
+}
+
+.side-bar a {
+  width: 100%;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: block;
+  text-align: start;
+}
+
+.side-bar li :hover {
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+#close-bar {
+  margin-left: 190px;
+}
+
+#close-bar:hover {
+  background-color: white;
+}
+
 #description1, #description2, #description3, #description4 {
   display: none;
 }
@@ -407,12 +453,12 @@ div #nav {
 
 #contact-hero-form input[type="submit"] {
   padding: 12px 28px;
-  background: #9a2018;
+  background: black;
   color: #fff;
   border: none;
   transition: all 200ms ease-in;
   width: 100px;
-  align-self: flex-start
+  align-self: center;
 }
 
 #contact-hero-form input[type="submit"]:hover {
@@ -439,6 +485,10 @@ div #nav {
   
   div #nav {
     display:none
+  }
+
+  .side-bar {
+    display: none;
   }
 
   .navbar ul {
