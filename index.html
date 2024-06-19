@@ -18,7 +18,7 @@
         <nav id="bkground" class="navbar">
             <div>
                 <img id="logo" src="images/SVG/Logo.svg">
-                <img id="nav" src="images/SVG/Asset 4.svg">
+                <a onclick=showSidebar(); href="#"><img id="nav" src="images/SVG/Asset 4.svg"></a></li>
                 <ul id="mainmenu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
@@ -27,6 +27,15 @@
                 </ul>
             </div>
         </nav>
+        <sidebar>
+            <ul class="side-bar">
+                <div id="close-bar" onclick=hideSidebar();><a><img src="images/SVG/close-burger.svg" width="30px" height="30px"></a></div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="social.html">Social Media</a></li>
+                <li><a href="contact.html">Contact Us!</a></li>
+            </ul>
+        </sidebar>
 
         <div id="video">
             <h1>Video Ad</h1>
