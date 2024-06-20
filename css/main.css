@@ -114,16 +114,15 @@ div #nav {
 }
 
 #lemon #can1 {
-  background-color: gray;
+  background-color: white;
+  display: flex;
+  justify-content: center;
   max-width: 100px;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-left: 365px;
-  position: absolute; top: 340px;
-
+  margin-left: 355px;
+  padding-left: 5px;
+  padding-right: 20px;
+  position: absolute; top: 310px;
 }
 
 /* PINEAPPLE */
@@ -143,15 +142,15 @@ div #nav {
 }
 
 #pineapple #can3 {
-  background-color: gray;
+  background-color: white;
+  display: flex;
+  justify-content: center;
   max-width: 100px;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-left: 365px;
-  position: absolute; top: 850px;
+  margin-left: 355px;
+  padding-left: 5px;
+  padding-right: 20px;
+  position: absolute; top: 825px;
 
 }
 
@@ -173,15 +172,15 @@ div #nav {
 }
 
 #orange #can2 {
-  background-color: gray;
+  background-color: white;
+  display: flex;
+  justify-content: center;
   max-width: 100px;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
   margin-left: 20px;
-  position: absolute; top: 600px;
+  padding-left: 5px;
+  padding-right: 20px;
+  position: absolute; top: 565px;
 }
 
 /* Grapefruit */
@@ -578,16 +577,20 @@ div #nav {
   }
   
   #lemon #can1 {
-    background-color: gray;
+    background-color: white;
     max-width: 100px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
-    margin-left: 540px;
-    position: absolute; top: 435px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 70px;
+    padding-left: 50px;
+    margin-left: 495px;
+    position: absolute; top: 410px;
   
+  }
+
+  #can1 img {
+    width: 600px;
   }
 
   /* PINEAPPLE */
@@ -614,16 +617,19 @@ div #nav {
   }
   
   #pineapple #can3 {
-    background-color: gray;
+    background-color: white;
     max-width: 100px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
-    margin-left: 540px;
-    position: absolute; top: 1320px;
-  
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 70px;
+    padding-left: 50px;
+    margin-left: 495px;
+    position: absolute; top: 1295px;
+  }
+
+  #can3 img {
+    width: 600px;
   }
 
   /* Orange */
@@ -653,16 +659,19 @@ div #nav {
 
   
   #orange #can2 {
-    background-color: grey;
+    background-color: white;
     max-width: 100px;
     text-align: center;
-    padding-top: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 70px;
+    padding-left: 50px;
     margin-left: 55px;
-    position: absolute; top: 875px;
+    position: absolute; top: 850px;
+  }
+
+  #can2 img {
+    width: 600px;
   }
   /* Grapefruit */
 
