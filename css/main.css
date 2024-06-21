@@ -1,10 +1,12 @@
 html, body {
     background-color: white;
     margin: 0 auto;
+    height: 100%;
 }
 
 #container {
   margin: 0 auto;
+  height: 100%;
 }
 
 div #logo {
@@ -85,7 +87,7 @@ div #nav {
 #video {
   background-color: grey;
   text-align: center;
-  max-width: 500px;
+  width: 500px;
   padding-top: 75px;
   padding-bottom: 75px;
   padding-left: 0px;
@@ -93,149 +95,196 @@ div #nav {
   margin: 0 auto;
 }
 
-#p5, #p6, #p7, #p8 {
-  display: none;
+#block2 {
+  width: 500px;
+  margin: 0 auto;
 }
 
-/* LEMON */
+/* Lemon */
 
 #lemon {
   background-color: yellow;
-  max-width: 500px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
-}
-
-#lemon #p1 {
-  padding-left: 20px;
-}
-
-#lemon #can1 {
-  background-color: white;
+  width: 250px;
+  padding-top: 25px;
+  padding-bottom: 125px;
   display: flex;
   justify-content: center;
-  max-width: 100px;
-  text-align: center;
-  margin-left: 355px;
-  padding-left: 5px;
-  padding-right: 20px;
-  position: absolute; top: 310px;
 }
 
-/* PINEAPPLE */
-
-#pineapple {
-  background-color: gold;
-  max-width: 500px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
-}
-
-#pineapple p {
-  padding-left: 20px;
-}
-
-#pineapple #can3 {
+#lemon #overview {
   background-color: white;
-  display: flex;
-  justify-content: center;
-  max-width: 100px;
-  text-align: center;
-  margin-left: 355px;
-  padding-left: 5px;
-  padding-right: 20px;
-  position: absolute; top: 825px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
+  position: absolute; top: 600px;
+}
 
+#lemon #overview:hover {
+  background-color: black;
+  color: yellow;
 }
 
 /* Orange */
 
 #orange {
   background-color: orange;
-  max-width: 500px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
-}
-
-#orange p {
-  text-align: end;
-  padding-right: 20px;
-}
-
-#orange #can2 {
-  background-color: white;
+  width: 250px;
+  padding-top: 25px;
+  padding-bottom: 127px;
   display: flex;
   justify-content: center;
-  max-width: 100px;
-  text-align: center;
-  margin-left: 20px;
-  padding-left: 5px;
-  padding-right: 20px;
-  position: absolute; top: 565px;
+  margin: 0px auto 0px 250px;
+  position: absolute; top: 292.5px;
+}
+
+#orange #overview {
+  background-color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
+  position: absolute; top: 305px;
+}
+
+#orange #overview:hover {
+  background-color: black;
+  color: orange;
+}
+
+/* Pineapple */
+#pineapple {
+  background-color: gold;
+  width: 250px;
+  padding-top: 25px;
+  padding-bottom: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+#pineapple #overview {
+  background-color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
+  position: absolute; top: 1000px;
+}
+
+#pineapple #overview:hover {
+  background-color: black;
+  color: gold;
 }
 
 /* Grapefruit */
 
 #grapefruit {
-  background-color: rgb(246, 76, 104);
-  max-width: 500px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
+  background-color: rgb(245, 95, 120);
+  width: 250px;
+  padding-top: 25px;
+  padding-bottom: 145px;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto 0px 250px;
+  position: absolute; top: 701px;
 }
 
-#grapefruit p {
-  text-align: end;
-  padding-right: 20px;
-}
-
-#grapefruit #can4 {
+#grapefruit #can {
   background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-left: 20px;
-  position: absolute; top: 1120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+
+#grapefruit #overview {
+  background-color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
+  position: absolute; top: 300px;
+}
+
+#grapefruit #overview:hover {
+  background-color: black;
+  color: rgb(245, 95, 120);
+}
+
+#social-media h1 {
+  font-size: 32px;
+  text-decoration: underline;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 25px;
+}
+
+#social-media #poster-1 {
+  padding-left: 25px;
+}
+
+#social-media #poster-2 {
+  margin: 0px auto 0px 275px;
+  position: absolute; top: 1208px;
+  padding-right: 25px;
+
+}
+
+#social-media #poster-3 {
+  position: absolute; top: 1525px;
+  padding-left: 25px;
+}
+
+#social-media #poster-4 {
+  margin: 0px auto 0px 275px;
+  position: absolute; top: 1525px;
+  padding-right: 25px;
+}
+
+#social-media #poster-5 {
+  display: none;
 }
 
 #footer {
   background-color: white;
   display: flex;
   justify-content: end;
-  max-width: 500px;
-  padding-top: 50px;
+  width: 500px;
+  padding-top: 100px;
   padding-bottom: 50px;
   padding-left: 0px;
   padding-right: 0px;
-  margin: 0 auto;
+  margin: 275px auto;
 }
 
-#footerlogo {
+#footer #footerlogo {
   width: 200px;
   padding-right: 20px;
 }
 
 /* Shop */
 
+/* Lemon Product */
+
 #product1 {
   background-color: yellow;
   display: flex;
   justify-content: center;
-  max-width: 500px;
+  width: 500px;
   padding-top: 300px;
   padding-bottom: 300px;
   padding-left: 0px;
@@ -243,44 +292,55 @@ div #nav {
   margin: 0 auto;
 }
 
-#item1 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 75px;
-  padding-right: 75px;
-  position: absolute; top: 125px;
+#product1 #front {
+  margin-right: 200px;
+  position: absolute; top: 135px;
 }
 
-#flavour1 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  position: absolute; top: 465px;
+#product1 #back {
+  margin-left: 200px;
+  position: absolute; top: 135px;
 }
 
-#checkout1 {
-  background-color: gray;
-  max-width: 100px;
+#product1 #flavour {
+  font-size: 26px;
+  background-color: none;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute; top: 460px;
+}
+
+#product1 #checkout {
+  background-color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
+  width: 150px;
+  margin: 0 auto;
   position: absolute; top: 550px;
 }
+
+#product1 #checkout:hover {
+  background-color: black;
+  color: yellow;
+}
+
+/* Orange Product */
 
 #product2 {
   background-color: orange;
   display: flex;
   justify-content: center;
-  max-width: 500px;
+  width: 500px;
   padding-top: 300px;
   padding-bottom: 300px;
   padding-left: 0px;
@@ -288,44 +348,55 @@ div #nav {
   margin: 0 auto;
 }
 
-#item2 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 75px;
-  padding-right: 75px;
-  position: absolute; top: 725px;
+#product2 #front {
+  margin-right: 200px;
+  position: absolute; top: 735px;
 }
 
-#flavour2 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  position: absolute; top: 1065px;
+#product2 #back {
+  margin-left: 200px;
+  position: absolute; top: 735px;
 }
 
-#checkout2 {
-  background-color: gray;
-  max-width: 100px;
+#product2 #flavour {
+  font-size: 26px;
+  background-color: none;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute; top: 1060px;
+}
+
+#product2 #checkout {
+  background-color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
+  width: 150px;
+  margin: 0 auto;
   position: absolute; top: 1150px;
 }
+
+#product2 #checkout:hover {
+  background-color: black;
+  color: orange;
+}
+
+/* Pineapple Product */
 
 #product3 {
   background-color: gold;
   display: flex;
   justify-content: center;
-  max-width: 500px;
+  width: 500px;
   padding-top: 300px;
   padding-bottom: 300px;
   padding-left: 0px;
@@ -333,44 +404,55 @@ div #nav {
   margin: 0 auto;
 }
 
-#item3 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 75px;
-  padding-right: 75px;
-  position: absolute; top: 1325px;
+#product3 #front {
+  margin-right: 200px;
+  position: absolute; top: 1335px;
 }
 
-#flavour3 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  position: absolute; top: 1665px;
+#product3 #back {
+  margin-left: 200px;
+  position: absolute; top: 1335px;
 }
 
-#checkout3 {
-  background-color: gray;
-  max-width: 100px;
+#product3 #flavour {
+  font-size: 26px;
+  background-color: none;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute; top: 1660px;
+}
+
+#product3 #checkout {
+  background-color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
+  width: 150px;
+  margin: 0 auto;
   position: absolute; top: 1750px;
 }
 
+#product3 #checkout:hover {
+  background-color: black;
+  color: gold;
+}
+
+/* Grapefruit Product */
+
 #product4 {
-  background-color: rgb(246, 76, 104);
+  background-color: rgb(245, 95, 120);
   display: flex;
   justify-content: center;
-  max-width: 500px;
+  width: 500px;
   padding-top: 300px;
   padding-bottom: 300px;
   padding-left: 0px;
@@ -378,37 +460,73 @@ div #nav {
   margin: 0 auto;
 }
 
-#item4 {
+#product4 #front {
   background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 75px;
-  padding-right: 75px;
-  position: absolute; top: 1925px;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-right: 200px;
+  position: absolute; top: 1950px;
 }
 
-#flavour4 {
+#product4 #back {
   background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  position: absolute; top: 2265px;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 200px;
+  position: absolute; top: 1950px;
 }
 
-#checkout4 {
-  background-color: gray;
-  max-width: 100px;
+#product4 #flavour {
+  font-size: 26px;
+  background-color: none;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute; top: 2260px;
+}
+
+#product4 #checkout {
+  background-color: white;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 100px;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
+  width: 150px;
+  margin: 0 auto;
   position: absolute; top: 2350px;
+}
+
+#product4 #checkout:hover {
+  background-color: black;
+  color: rgb(245, 95, 120);
+}
+
+#footershop {
+  background-color: white;
+  display: flex;
+  justify-content: end;
+  width: 500px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px auto;
+}
+
+#footershop #footerlogo {
+  width: 200px;
+  padding-right: 20px;
 }
 
 /* Contact */
@@ -462,7 +580,7 @@ div #nav {
 
 #contact-hero-form input[type="submit"]:hover {
   width: 150px;
-  background-color: red;
+  background-color: darkred;
   border-radius: 0;
 }
 
@@ -523,11 +641,6 @@ div #nav {
     margin-left: 325px;
     position: absolute; top: 35px;
   }
-
-  #description1, #description2, #description3, #description4 {
-    font-size: 18px;
-    display: block;
-  }
   
   #bkground {
     background-color: white;
@@ -541,7 +654,6 @@ div #nav {
     background-color: grey;
     text-align: center;
     width: 768px;
-    max-width: 1200px;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 0px;
@@ -549,167 +661,182 @@ div #nav {
     margin: 0 auto;
   }
 
-  #p5, #p6, #p7, #p8 {
-    display: block;
+  #block2 {
+    width: 768px;
+    margin: 0 auto;
   }
 
-  /* LEMON */
+  /* Lemon */
 
   #lemon {
     background-color: yellow;
-    width: 768px;
-    max-width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
-  }
-  
-  #lemon #p1 {
-    font-size: 18px;
-    padding-left: 55px;
+    width: 384px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
   }
 
-  #lemon #p5 {
-    font-size: 18px;
-    padding-left: 55px;
-  }
-  
-  #lemon #can1 {
+  #lemon #overview {
     background-color: white;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 70px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
-    margin-left: 495px;
-    position: absolute; top: 410px;
-  
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 665px;
   }
 
-  #can1 img {
-    width: 600px;
-  }
-
-  /* PINEAPPLE */
-
-  #pineapple {
-    background-color: yellow;
-    width: 768px;
-    max-width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
-  }
-  
-  #pineapple #p3 {
-    font-size: 18px;
-    padding-left: 55px;
-  }
-
-  #pineapple #p7 {
-    font-size: 18px;
-    padding-left: 55px;
-  }
-  
-  #pineapple #can3 {
-    background-color: white;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 70px;
-    padding-left: 50px;
-    margin-left: 495px;
-    position: absolute; top: 1295px;
-  }
-
-  #can3 img {
-    width: 600px;
+  #lemon #overview:hover {
+    background-color: black;
+    color: yellow;
   }
 
   /* Orange */
 
   #orange {
     background-color: orange;
-    width: 768px;
-    max-width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
+    width: 384px;
+    padding-top: 25px;
+    padding-bottom: 127px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 384px;
+    position: absolute; top: 358px;
   }
 
-  #orange #p2 {
-    text-align: end;
-    font-size: 18px;
-    padding-right: 55px;
-  }
-
-  #orange #p6 {
-    text-align: end;
-    font-size: 18px;
-    padding-right: 55px;
-  }
-
-  
-  #orange #can2 {
+  #orange #overview {
     background-color: white;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 70px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
-    margin-left: 55px;
-    position: absolute; top: 850px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 305px;
   }
 
-  #can2 img {
-    width: 600px;
+  #orange #overview:hover {
+    background-color: black;
+    color: orange;
   }
+
+  /* Pineapple */
+  #pineapple {
+    background-color: gold;
+    width: 384px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #pineapple #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 1065px;
+  }
+
+  #pineapple #overview:hover {
+    background-color: black;
+    color: gold;
+  }
+
   /* Grapefruit */
 
   #grapefruit {
-    background-color: rgb(242, 63, 93);
-    width: 768px;
-    max-width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
+    background-color: rgb(245, 95, 120);
+    width: 384px;
+    padding-top: 25px;
+    padding-bottom: 145px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 384px;
+    position: absolute; top: 767px;
   }
 
-  #grapefruit #p4 {
-    text-align: end;
-    font-size: 18px;
-    padding-right: 55px;
-  }
-
-  #grapefruit #p8 {
-    text-align: end;
-    font-size: 18px;
-    padding-right: 55px;
-  }
-
-  
-  #grapefruit #can4 {
-    background-color: grey;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 50px;
+  #grapefruit #can {
+    background-color: gray;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 60px;
-    padding-left: 60px;
-    margin-left: 55px;
-    position: absolute; top: 1765px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 15px;
+  }
+
+  #grapefruit #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 300px;
+  }
+
+  #grapefruit #overview:hover {
+    background-color: black;
+    color: rgb(245, 95, 120);
+  }
+
+  #social-media h1 {
+    font-size: 32px;
+    text-decoration: underline;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 50px;
+  }
+
+  #social-media #poster-1 {
+    padding-left: 50px;
+  }
+
+  #poster-1 img {
+    width: 300px;
+  }
+
+  #social-media #poster-2 {
+    margin: 0px auto 0px 420px;
+    position: absolute; top: 1272px;
+  }
+
+  #poster-2 img {
+    width: 300px;
+  }
+
+  #social-media #poster-3 {
+    position: absolute; top: 1725px;
+    padding-left: 50px;
+  }
+
+  #poster-3 img {
+    width: 300px;
+  }
+
+  #social-media #poster-4 {
+    margin: 0px auto 0px 420px;
+    position: absolute; top: 1725px;
+    padding-right: 25px;
+  }
+
+  #poster-4 img {
+    width: 300px;
+  }
+
+  #social-media #poster-5 {
+    display: none;
   }
 
   #footer {
@@ -720,7 +847,7 @@ div #nav {
     padding-bottom: 75px;
     padding-left: 0px;
     padding-right: 0px;
-    margin: 0 auto;
+    margin: 450px auto;
   }
 
   #footerlogo {
@@ -730,221 +857,289 @@ div #nav {
 
   /* Shop */
 
-#product1 {
-  background-color: yellow;
-  display: flex;
-  justify-content: center;
-  width: 768px;
-  max-width: 1200px;
-  padding-top: 275px;
-  padding-bottom: 275px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
-}
+  /* Lemon Product */
 
-#item1 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-right: 430px;
-  position: absolute; top: 150px;
-}
+  #product1 {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    padding-top: 300px;
+    padding-bottom: 225px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
 
-#description1 {
-  margin-left: 370px;
-  position: absolute; top: 150px;
-}
+  #product1 #front {
+    margin-right: 525px;
+    position: absolute; top: 150px;
+  }
 
-#flavour1 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 470px;
-  position: absolute; top: 350px;
-}
+  #product1 #front img {
+    width: 150px;
+  }
 
-#checkout1 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 463px;
-  position: absolute; top: 450px;
-}
+  #product1 #back {
+    margin-right: 300px;
+    position: absolute; top: 150px;
+  }
 
-#product2 {
-  background-color: orange;
-  display: flex;
-  justify-content: center;
-  width: 768px;
-  max-width: 1200px;
-  padding-top: 275px;
-  padding-bottom: 275px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
-}
+  #product1 #back img {
+    width: 155px;
+  }
 
-#item2 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-right: 430px;
-  position: absolute; top: 700px;
-}
+  #product1 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 400px;
+    position: absolute; top: 250px;
+  }
 
-#description2 {
-  margin-left: 370px;
-  position: absolute; top: 700px;
-}
+  #product1 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-left: 400px;
+    position: absolute; top: 375px;
+  }
 
-#flavour2 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 465px;
-  position: absolute; top: 900px;
-}
+  #product1 #checkout:hover {
+    background-color: black;
+    color: yellow;
+  }
 
-#checkout2 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 463px;
-  position: absolute; top: 1000px;
-}
+  /* Orange Product */
 
-#product3 {
-  background-color: gold;
-  display: flex;
-  justify-content: center;
-  width: 768px;
-  max-width: 1200px;
-  padding-top: 275px;
-  padding-bottom: 275px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
-}
+  #product2 {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    padding-top: 300px;
+    padding-bottom: 225px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
 
-#item3 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-right: 430px;
-  position: absolute; top: 1250px;
-}
+  #product2 #front {
+    margin-left: 700px;
+    position: absolute; top: 680px;
+  }
 
-#description3 {
-  margin-left: 370px;
-  position: absolute; top: 1250px;
-}
+  #product2 #front img {
+    width: 150px;
+  }
 
-#flavour3 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 445px;
-  position: absolute; top: 1450px;
-}
+  #product2 #back {
+    margin-left: 75px;
+    position: absolute; top: 675px;
+  }
 
-#checkout3 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 463px;
-  position: absolute; top: 1550px;
-}
+  #product2 #back img {
+    width: 155px;
+  }
 
-#product4 {
-  background-color: rgb(246, 76, 104);
-  display: flex;
-  justify-content: center;
-  width: 768px;
-  max-width: 1200px;
-  padding-top: 275px;
-  padding-bottom: 275px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin: 0 auto;
-}
+  #product2 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 425px;
+    position: absolute; top: 775px;
+  }
 
-#item4 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-right: 430px;
-  position: absolute; top: 1800px;
-}
+  #product2 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-right: 425px;
+    position: absolute; top: 900px;
+  }
 
-#description4 {
-  margin-left: 370px;
-  position: absolute; top: 1800px;
-}
+  #product2 #checkout:hover {
+    background-color: black;
+    color: orange;
+  }
 
-#flavour4 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 445px;
-  position: absolute; top: 2000px;
-}
+  /* Pineapple Product */
 
-#checkout4 {
-  background-color: gray;
-  max-width: 100px;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-left: 463px;
-  position: absolute; top: 2100px;
-}
+  #product3 {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    padding-top: 300px;
+    padding-bottom: 225px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #product3 #front {
+    margin-right: 525px;
+    position: absolute; top: 1210px;
+  }
+
+  #product3 #front img {
+    width: 150px;
+  }
+
+  #product3 #back {
+    margin-right: 300px;
+    position: absolute; top: 1205px;
+  }
+
+  #product3 #back img {
+    width: 155px;
+  }
+
+  #product3 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 400px;
+    position: absolute; top: 1300px;
+  }
+
+  #product3 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-left: 400px;
+    position: absolute; top: 1425px;
+  }
+
+  #product3 #checkout:hover {
+    background-color: black;
+    color: gold;
+  }
+  
+  /* Grapefruit Product */
+
+  #product4 {
+    background-color: rgb(245, 95, 120);
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    padding-top: 300px;
+    padding-bottom: 225px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  #product4 #front {
+    background-color: gray;
+    padding-top: 175px;
+    padding-bottom: 175px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 675px;
+    position: absolute; top: 1750px;
+  }
+  
+  #product4 #back {
+    background-color: gray;
+    padding-top: 175px;
+    padding-bottom: 175px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: 0px;
+    position: absolute; top: 1750px;
+  }
+  
+
+  #product4 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 450px;
+    position: absolute; top: 1825px;
+  }
+
+  #product4 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-right: 450px;
+    position: absolute; top: 1950px;
+  }
+
+  #product4 #checkout:hover {
+    background-color: black;
+    color: rgb(245, 95, 120);
+  }
+
+  #footershop {
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    width: 768px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px auto;
+  }
+  
+  #footershop #footerlogo {
+    width: 200px;
+    padding-right: 20px;
+  }
 }
 
 /* Desktop Grid */
@@ -995,155 +1190,186 @@ div #nav {
     margin: 0 auto;
   }
 
-  #p5, #p6, #p7, #p8 {
-    display: block;
+  #block2 {
+    width: 1200px;
+    margin: 0 auto;
   }
 
-  /* LEMON */
+  /* Lemon */
 
   #lemon {
     background-color: yellow;
-    width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
-  }
-  
-  #lemon #p1 {
-    font-size: 24px;
-    padding-left: 75px;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
   }
 
-  #lemon #p5 {
-    font-size: 24px;
-    padding-left: 75px;
-  }
-  
-  #lemon #can1 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 90px;
-    padding-left: 90px;
-    margin-left: 800px;
-    position: absolute; top: 580px;
-    transform: rotate(30deg);
-  
+  #lemon #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 800px;
   }
 
-  /* PINEAPPLE */
-
-  #pineapple {
-    background-color: yellow;
-    width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
-  }
-  
-  #pineapple #p3 {
-    font-size: 24px;
-    padding-left: 75px;
-  }
-
-  #pineapple #p7 {
-    font-size: 24px;
-    padding-left: 75px;
-  }
-  
-  #pineapple #can3 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 90px;
-    padding-left: 90px;
-    margin-left: 800px;
-    position: absolute; top: 1710px;
-    transform: rotate(30deg);
-  
+  #lemon #overview:hover {
+    background-color: black;
+    color: yellow;
   }
 
   /* Orange */
 
   #orange {
     background-color: orange;
-    width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 300px;
+    position: absolute; top: 488px;
   }
 
-  #orange #p2 {
-    text-align: end;
-    font-size: 24px;
-    padding-right: 75px;
+  #orange #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 310px;
   }
 
-  #orange #p6 {
-    text-align: end;
-    font-size: 24px;
-    padding-right: 75px;
+  #orange #overview:hover {
+    background-color: black;
+    color: orange;
   }
 
-  
-  #orange #can2 {
-    background-color: grey;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 90px;
-    padding-left: 90px;
-    transform: rotate(-30deg);
-    margin-left: 170px;
-    position: absolute; top: 1150px;
+  /* Pineapple */
+
+  #pineapple {
+    background-color: gold;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 600px;
+    position: absolute; top: 488px;
   }
+
+  #pineapple #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 310px;
+  }
+
+  #pineapple #overview:hover {
+    background-color: black;
+    color: gold;
+  }
+
   /* Grapefruit */
 
   #grapefruit {
-    background-color: rgb(242, 63, 93);
-    width: 1200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0 auto;
-  }
-
-  #grapefruit #p4 {
-    text-align: end;
-    font-size: 24px;
-    padding-right: 55px;
-  }
-
-  #grapefruit #p8 {
-    text-align: end;
-    font-size: 24px;
-    padding-right: 55px;
-  }
-
-  
-  #grapefruit #can4 {
-    background-color: grey;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
+    background-color: rgb(245, 95, 120);
+    width: 300px;
+    padding-top: 25px;
     padding-bottom: 150px;
-    padding-right: 90px;
-    padding-left: 90px;
-    transform: rotate(-30deg);
-    margin-left: 170px;
-    position: absolute; top: 2275px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 900px;
+    position: absolute; top: 488px;
+  }
+
+  #grapefruit #can {
+    background-color: gray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 15px;
+  }
+
+  #grapefruit #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 310px;
+  }
+
+  #grapefruit #overview:hover {
+    background-color: black;
+    color: rgb(245, 95, 120);
+  }
+
+  #social-media h1 {
+    font-size: 32px;
+    text-decoration: underline;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 50px;
+  }
+
+  #social-media #poster-1 {
+    padding-left: 50px;
+  }
+
+  #poster-1 img {
+    width: 250px;
+  }
+
+  #social-media #poster-2 {
+    margin: 0px auto 0px 342px;
+    position: absolute; top: 1000px;
+  }
+
+  #poster-2 img {
+    width: 250px;
+  }
+
+  #social-media #poster-3 {
+    margin: 0px auto 0px 582px;
+    position: absolute; top: 1000px;
+    padding-left: 50px;
+  }
+
+  #poster-3 img {
+    width: 250px;
+  }
+
+  #social-media #poster-4 {
+    margin: 0px auto 0px 925px;
+    position: absolute; top: 1000px;
+    padding-right: 25px;
+  }
+
+  #poster-4 img {
+    width: 250px;
+  }
+
+  #social-media #poster-5 {
+    display: none;
   }
 
   #footer {
@@ -1163,7 +1389,7 @@ div #nav {
 
    /* Shop */
 
-   #block {
+  #block {
     background-color: red;
     width: 1200px;
     padding-top: 0px;
@@ -1171,205 +1397,402 @@ div #nav {
     padding-left: 0px;
     padding-right: 0px;
     margin: 0 auto;
-   }
+  }
+
+   /* Lemon */
+
+  #lemon {
+    background-color: yellow;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #lemon #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 800px;
+  }
+
+  #lemon #overview:hover {
+    background-color: black;
+    color: yellow;
+  }
+
+  /* Orange */
+
+  #orange {
+    background-color: orange;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 300px;
+    position: absolute; top: 488px;
+  }
+
+  #orange #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 310px;
+  }
+
+  #orange #overview:hover {
+    background-color: black;
+    color: orange;
+  }
+
+  /* Pineapple */
+
+  #pineapple {
+    background-color: gold;
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 600px;
+    position: absolute; top: 488px;
+  }
+
+  #pineapple #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 310px;
+  }
+
+  #pineapple #overview:hover {
+    background-color: black;
+    color: gold;
+  }
+
+  /* Grapefruit */
+
+  #grapefruit {
+    background-color: rgb(245, 95, 120);
+    width: 300px;
+    padding-top: 25px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px 900px;
+    position: absolute; top: 488px;
+  }
+
+  #grapefruit #can {
+    background-color: gray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 15px;
+  }
+
+  #grapefruit #overview {
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    position: absolute; top: 310px;
+  }
+
+  #grapefruit #overview:hover {
+    background-color: black;
+    color: rgb(245, 95, 120);
+  }
+
+  /* Shop */
+
+  /* Lemon Product */
 
   #product1 {
     background-color: yellow;
     display: flex;
     justify-content: center;
-    width: 300px;
-    padding-top: 275px;
-    padding-bottom: 275px;
+    width: 600px;
+    padding-top: 300px;
+    padding-bottom: 325px;
     padding-left: 0px;
     padding-right: 0px;
-    margin: 0px auto 0px 0px;
+    margin-left: 0px;
   }
 
-  #item1 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 75px;
-    padding-right: 75px;
-    margin: 0 auto;
+  #product1 #front {
+    margin-right: 200px;
     position: absolute; top: 175px;
   }
 
-  #flavour1 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 510px;
+  #product1 #front img {
+    width: 125px;
   }
 
-  #checkout1 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  #product1 #back {
+    margin-right: 0px;
+    position: absolute; top: 175px;
+  }
+
+  #product1 #back img {
+    width: 130px;
+  }
+
+  #product1 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 575px;
+    margin-left: 0px;
+    position: absolute; top: 490px;
   }
+
+  #product1 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-left: 0px;
+    position: absolute; top: 600px;
+  }
+
+  #product1 #checkout:hover {
+    background-color: black;
+    color: yellow;
+  }
+
+  /* Orange Product */
 
   #product2 {
     background-color: orange;
     display: flex;
     justify-content: center;
-    width: 300px;
-    padding-top: 275px;
-    padding-bottom: 275px;
+    width: 600px;
+    padding-top: 300px;
+    padding-bottom: 325px;
     padding-left: 0px;
     padding-right: 0px;
-    margin: 0px auto 0px 300px;
+    margin-left: 600px;
     position: absolute; top: 120px;
   }
 
-  #item2 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 75px;
-    padding-right: 75px;
-    margin: 0 auto;
+  #product2 #front {
+    margin-right: 900px;
     position: absolute; top: 55px;
   }
 
-  #flavour2 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 390px;
+  #product2 #front img {
+    width: 125px;
   }
 
-  #checkout2 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  #product2 #back {
+    margin-left: 200px;
+    position: absolute; top: 50px;
+  }
+
+  #product2 #back img {
+    width: 130px;
+  }
+
+  #product2 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 455px;
+    margin-left: 425px;
+    position: absolute; top: 365px;
   }
+
+  #product2 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-left: 425px;
+    position: absolute; top: 475px;
+  }
+
+  #product2 #checkout:hover {
+    background-color: black;
+    color: orange;
+  }
+
+  /* Pineapple Product */
 
   #product3 {
-    background-color: gold;
+    background-color: Gold;
     display: flex;
     justify-content: center;
-    width: 300px;
-    padding-top: 275px;
-    padding-bottom: 275px;
+    width: 600px;
+    padding-top: 300px;
+    padding-bottom: 325px;
     padding-left: 0px;
     padding-right: 0px;
-    margin: 0px auto 0px 600px;
-    position: absolute; top: 120px;
+    margin-left: 0px;
   }
 
-  #item3 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 75px;
-    padding-right: 75px;
-    margin: 0 auto;
-    position: absolute; top: 55px;
+  #product3 #front {
+    margin-right: 200px;
+    position: absolute; top: 800px;
   }
 
-  #flavour3 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  #product3 #front img {
+    width: 125px;
+  }
+
+  #product3 #back {
+    margin-right: 0px;
+    position: absolute; top: 795px;
+  }
+
+  #product3 #back img {
+    width: 130px;
+  }
+
+  #product3 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 390px;
+    margin-left: 0px;
+    position: absolute; top: 1110px;
   }
 
-  #checkout3 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  #product3 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 455px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-left: 0px;
+    position: absolute; top: 1220px;
   }
+
+  #product3 #checkout:hover {
+    background-color: black;
+    color: gold;
+  }
+
+  /* Grapefruit Product */
 
   #product4 {
-    background-color: rgb(242, 63, 93);
+    background-color: rgb(245, 95, 120);
     display: flex;
     justify-content: center;
-    width: 300px;
-    padding-top: 275px;
-    padding-bottom: 275px;
+    width: 600px;
+    padding-top: 300px;
+    padding-bottom: 325px;
     padding-left: 0px;
     padding-right: 0px;
-    margin: 0px auto 0px 900px;
-    position: absolute; top: 120px;
+    margin-left: 600px;
+    position: absolute; top: 745px;
   }
 
-  #item4 {
+  #product4 #front {
     background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 150px;
+    padding-top: 125px;
     padding-bottom: 150px;
-    padding-left: 75px;
-    padding-right: 75px;
-    margin: 0 auto;
-    position: absolute; top: 55px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 0px;
+    position: absolute; top: 70px;
+  }
+  
+  #product4 #back {
+    background-color: gray;
+    padding-top: 125px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 200px;
+    position: absolute; top: 70px;
   }
 
-  #flavour4 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  #product4 #flavour {
+    font-size: 32px;
+    background-color: none;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 390px;
+    margin-left: 425px;
+    position: absolute; top: 365px;
   }
 
-  #checkout4 {
-    background-color: gray;
-    max-width: 100px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  #product4 #checkout {
+    font-size: 16px;
+    background-color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 0 auto;
-    position: absolute; top: 455px;
+    border-radius: 100px;
+    text-align: center;
+    width: 125px;
+    margin-left: 425px;
+    position: absolute; top: 475px;
   }
 
-  #footerlogo {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  #product4 #checkout:hover {
+    background-color: black;
+    color: rgb(245, 95, 120);
   }
 }
